@@ -10,7 +10,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import AddIcon from '@material-ui/icons/Add';
 
-export default class Dialog extends Component{
+export default class DialogBox extends Component{
     state = {
         open: false
     }
@@ -29,7 +29,7 @@ export default class Dialog extends Component{
         </IconButton>
 
         <Dialog open={open} onClose={this.handleToggle}  >
-            <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
+            <DialogTitle id="form-dialog-title">Post new song</DialogTitle>
             <DialogContent>
                 <DialogContentText>
                     Enter a song name to post
@@ -38,8 +38,21 @@ export default class Dialog extends Component{
                     autoFocus
                     margin="dense"
                     id="name"
-                    label="Email Address"
-                    type="email"
+                    label="Song URL"
+                    type="url"
+                    fullWidth
+                />
+            </DialogContent>
+            <DialogContent>
+                <DialogContentText>
+                    Enter a comment
+                </DialogContentText>
+                <TextField
+                    autoFocus
+                    margin="dense"
+                    id="name"
+                    label="Comment"
+                    type="comment"
                     fullWidth
                 />
             </DialogContent>
@@ -55,5 +68,4 @@ export default class Dialog extends Component{
  
 }
 
-export default Dialog;
     

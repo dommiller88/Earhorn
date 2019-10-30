@@ -1,7 +1,7 @@
     // src/components/Header/index.js
 import React, { Component } from 'react';
 import "./header.css"
-import Dialog from "components/Dialog";
+import Dialog from "../Dialog";
 import ReactDOM from 'react-dom';
 
 
