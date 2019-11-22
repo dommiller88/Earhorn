@@ -1,10 +1,10 @@
 .Post {
     border-radius: 3px;
     border: 1 px solid #e21212;
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(10, 10, 10);
     margin-bottom: 60px;
-    margin-left : 20%;
-    margin-right: 20%;
+    margin-left : 30%;
+    margin-right: 30%;
   }
   .Post-user {
     display: flex;

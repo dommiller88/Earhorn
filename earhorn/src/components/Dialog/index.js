@@ -57,7 +57,7 @@ export default class DialogBox extends Component{
                 />
             </DialogContent>
             <DialogActions>
-                <Button color="primary">
+                <Button color="primary" >
                     Submit
                 </Button>
             </DialogActions>

@@ -19,14 +19,18 @@ i.Nav {
   }
   .Nav-brand {
     display: block;
-    background-position: -176px 0px;
+    background-position: 0px 0px;
     background-size: 405px 379px;
     background-repeat: no-repeat;
     height: 35px;
     width: 176px;
     color: black;
+    font-size: 30px;
+    text-align: center;
   }
-  .Add-buttons{
-    size: 400px;
+  .Dialog-button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
   

@@ -18,8 +18,8 @@ class Header extends Component{
             <nav className="Nav">
                 <div className="Nav-menus">
                     <div className="Nav-brand">
-                        <h1>Earhorn</h1>
-                        <div>
+                        <h1>Earhorn</h1>    
+                        <div className="Dialog-button">
                             <Dialog />
                         </div>
                    </div>

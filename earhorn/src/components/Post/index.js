@@ -21,7 +21,7 @@ import './post.css'
             </header>
             <div>
               <div>
-                <iframe title="mySong" src={song} height="380" width="300" frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <iframe title="mySong" src={song} height="400" width="320" frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
               </div>
             </div>
             <div className="Post-caption">
