@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const postSchema = new Schema({
     spotifyUri: {
         type: String,
-        required: true
+        required:true
     },
 
     username: {
@@ -15,7 +15,6 @@ const postSchema = new Schema({
 
     comment: {
         type: String,
-        maxlength: true
     },
 
     profilePicture: {

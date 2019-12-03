@@ -7,12 +7,26 @@ import ReactDOM from 'react-dom';
 
 class Header extends Component{
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-            TextField: "hello"
+            username: '',
+            profilePicture: ''
         }
     }
+
+    onChangeUsername(e) {
+        this.setState({
+            username: e.target.value
+        });
+    }
+
+    onChangeProfilePictrue(e) {
+        this.setState({
+            profilePicture: e.target.value
+        });
+    }
+
     render(){
         return (
             <nav className="Nav">
